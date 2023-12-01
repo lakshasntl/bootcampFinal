@@ -1,0 +1,56 @@
+/* Home.css */
+/* CSS to style the movie list */
+
+/* Style for each section */
+section {
+    border: 8px solid #faedcd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    background-color: #f1faee;
+  }
+  
+  /* Styles specific to each section */
+  section[movies] {
+    border-color: #ffcc00; /* Example color for movies section */
+  }
+
+  #movieTitle {
+    color: #83c9f4;
+  }
+  
+  section[shows] {
+    border-color: #00ccff; /* Example color for shows section */
+  }
+  
+  #showTitle {
+    color: #83c9f4;
+  }
+
+  section[thanksgiving] {
+    border-color: #99ff99; /* Example color for thanksgiving section */
+  }
+
+  #stuffTitle {
+    color: #83c9f4;
+  }
+
+  body{
+    background-color: #d9f0ff;
+  }
+
+  #pageTitle{
+    color: #2ab7ca;
+    text-align: center;
+    border: 8px solid #faedcd;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #f1faee;
+  }
+
+    
+ 
+  
