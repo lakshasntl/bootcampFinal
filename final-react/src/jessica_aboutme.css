@@ -1,0 +1,36 @@
+body {
+    background-color: #99f2d0;
+  }
+  .about-header {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+  }
+  
+  .subject-header {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    margin-top: 50px;
+  }
+  .about-info {
+    display: flex;
+    justify-content: center;
+    font-family: 'Verdana';
+    margin-bottom: 60px;
+  }
+  
+  p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Verdana';
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+    padding: 30px;
+  }
