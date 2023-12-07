@@ -21,6 +21,12 @@ const Home = () => {
       imageUrl: "neel.jpg",
       buttonRoute: "/neel",
     },
+    {
+      name: "Sara",
+      position: "Tech Lead",
+      imageUrl: "sara.png",
+      buttonRoute: "/sara",
+    },
     // { name: "Sara", position: "Tech Lead", imageUrl: "", buttonRoute, buttonRoute: "/sara" },
   ];
 

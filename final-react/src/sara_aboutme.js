@@ -2,7 +2,7 @@ import React from 'react';
 import "./sara_aboutme.css";
 
 
-const AboutMe = () => {
+const Sara = () => {
   return (
     <div>
       <h1>About Me!</h1>
@@ -85,4 +85,6 @@ const Movies = () => {
   );
 };
 
-export { AboutMe, Name, Hobbies, Movies };
+//export { AboutMe, Name, Hobbies, Movies };
+
+export default Sara;
