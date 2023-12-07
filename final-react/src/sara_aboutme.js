@@ -1,10 +1,9 @@
 import React from 'react';
-import "./sara_aboutme.css";
-
+import styles from './sara_aboutme.css'; // Import CSS Modules
 
 const Sara = () => {
   return (
-    <div>
+    <div className={styles['about-me-container']}>
       <h1>About Me!</h1>
       <Name />
       <Movies />
@@ -23,7 +22,8 @@ const Name = () => {
 
 const Hobbies = () => {
   return (
-    <div className="container">
+    <div className={styles.container}>
+      {<div className="container">
       <h2 style={{ color: '#ac3f98' }}>Hobbies:</h2>
       <ul>
         <li style={{ color: '#146d28' }}>
@@ -44,13 +44,15 @@ const Hobbies = () => {
           style={{ width: '300px', height: '200px', border: '2px solid #8D8585' }}
         />
       </div>
+    </div>}
     </div>
   );
 };
 
 const Movies = () => {
   return (
-    <div className="container">
+    <div className={styles.container}>
+      {<div className="container">
       <h2 style={{ color: '#ac3f98' }}>Favorite Movies:</h2>
       <ul>
         <li style={{ color: '#146d28' }}>
@@ -81,10 +83,12 @@ const Movies = () => {
           style={{ width: '200px', height: '100px', border: '2px solid #8D8585' }}
         />
       </div>
+    </div>}
     </div>
   );
 };
 
-//export { AboutMe, Name, Hobbies, Movies };
-
 export default Sara;
+
+
+
