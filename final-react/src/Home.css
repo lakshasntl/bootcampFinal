@@ -4,26 +4,20 @@
     margin-top: 20px;
   }
   
-  h1 {
+  .main-header {
     margin-bottom: 0.5em;
   }
   
-  h2 {
+  .sub-header {
     margin-bottom: 1em;
+    color: #007bff;
+    font-weight: 300;
   }
   
   .card-container {
     display: flex;
+    flex-direction: row; /* Ensure items are aligned horizontally */
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px; /* This adds space between the cards */
   }
-  
-  /* Add responsive design to accommodate different screen sizes */
-  @media (max-width: 768px) {
-    .card-container {
-      flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
-      justify-content: center;
-    }
-  }
-  
+ 

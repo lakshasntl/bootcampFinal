@@ -1,5 +1,6 @@
 import React from "react";
 import TeamMemberCard from "./TeamMemberCard"; // Import the TeamMemberCard component
+import "./Home.css";
 
 const Home = () => {
   const teamMembers = [
@@ -21,13 +22,18 @@ const Home = () => {
       imageUrl: "neel.jpg",
       buttonRoute: "/neel",
     },
-    // { name: "Sara", position: "Tech Lead", imageUrl: "", buttonRoute, buttonRoute: "/sara" },
+    {
+      name: "Sara",
+      position: "Tech Lead",
+      imageUrl: "sara.png",
+      buttonRoute: "/sara",
+    },
   ];
 
   return (
     <div className="team-container">
-      <h1>H4I Bootcamp Team 4</h1>
-      <h2>Meet the Team!</h2>
+      <h1 className="main-header">H4I Bootcamp Team 4</h1>
+      <h2 className="sub-header">Meet the Team!</h2>
       <div className="card-container">
         {teamMembers.map((member) => (
           <TeamMemberCard

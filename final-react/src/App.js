@@ -5,6 +5,7 @@ import Laksha from "./laksha_aboutme";
 import Jessica from "./jessica_aboutme";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Neel from "./neel_aboutme";
+import AboutMe from "./sara_aboutme";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/laksha" element={<Laksha />} />
         <Route path="/jessica" element={<Jessica />} />
         <Route path="/neel" element={<Neel />} />
+        <Route path="/sara" element={<AboutMe />} />
       </Routes>
     </BrowserRouter>
   );

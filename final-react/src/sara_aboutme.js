@@ -1,6 +1,5 @@
-import React from 'react';
-import "./sara_aboutme.css";
-
+import React from "react";
+// import "./sara_aboutme.css";
 
 const AboutMe = () => {
   return (
@@ -24,11 +23,12 @@ const Name = () => {
 const Hobbies = () => {
   return (
     <div className="container">
-      <h2 style={{ color: '#ac3f98' }}>Hobbies:</h2>
+      <h2 style={{ color: "#ac3f98" }}>Hobbies:</h2>
       <ul>
-        <li style={{ color: '#146d28' }}>
-          I do a lot of things in my free time. Throughout high school, I was a coxswain on a crew team. I also love to
-          watch sports(specifically the eagles). I also love to listen to music.
+        <li style={{ color: "#146d28" }}>
+          I do a lot of things in my free time. Throughout high school, I was a
+          coxswain on a crew team. I also love to watch sports(specifically the
+          eagles). I also love to listen to music.
         </li>
       </ul>
       <div>
@@ -36,12 +36,20 @@ const Hobbies = () => {
         <img
           src="pnra.png"
           alt="Rowing"
-          style={{ width: '300px', height: '200px', border: '2px solid #8D8585' }}
+          style={{
+            width: "300px",
+            height: "200px",
+            border: "2px solid #8D8585",
+          }}
         />
         <img
           src="eagles.jpeg"
           alt="Eagles!"
-          style={{ width: '300px', height: '200px', border: '2px solid #8D8585' }}
+          style={{
+            width: "300px",
+            height: "200px",
+            border: "2px solid #8D8585",
+          }}
         />
       </div>
     </div>
@@ -51,11 +59,12 @@ const Hobbies = () => {
 const Movies = () => {
   return (
     <div className="container">
-      <h2 style={{ color: '#ac3f98' }}>Favorite Movies:</h2>
+      <h2 style={{ color: "#ac3f98" }}>Favorite Movies:</h2>
       <ul>
-        <li style={{ color: '#146d28' }}>
-          I don't really watch movies, but I do watch TV shows a lot. If I were to choose movies, I would choose the
-          divergent movies. But as of right now, I'm on season 14 of Grey's Anatomy!
+        <li style={{ color: "#146d28" }}>
+          I don't really watch movies, but I do watch TV shows a lot. If I were
+          to choose movies, I would choose the divergent movies. But as of right
+          now, I'm on season 14 of Grey's Anatomy!
         </li>
       </ul>
       <div>
@@ -63,26 +72,42 @@ const Movies = () => {
         <img
           src="divergent .jpeg"
           alt="Divergent"
-          style={{ width: '300px', height: '200px', border: '2px solid #8D8585' }}
+          style={{
+            width: "300px",
+            height: "200px",
+            border: "2px solid #8D8585",
+          }}
         />
         <img
           src="allegiant.jpeg"
           alt="Allegiant"
-          style={{ width: '300px', height: '200px', border: '2px solid #8D8585' }}
+          style={{
+            width: "300px",
+            height: "200px",
+            border: "2px solid #8D8585",
+          }}
         />
         <img
           src="insurgent.jpeg"
           alt="Insurgent"
-          style={{ width: '300px', height: '200px', border: '2px solid #8D8585' }}
+          style={{
+            width: "300px",
+            height: "200px",
+            border: "2px solid #8D8585",
+          }}
         />
         <img
           src="greys anatomy.jpeg"
           alt="Grey's Anatomy!"
-          style={{ width: '200px', height: '100px', border: '2px solid #8D8585' }}
+          style={{
+            width: "200px",
+            height: "100px",
+            border: "2px solid #8D8585",
+          }}
         />
       </div>
     </div>
   );
 };
 
-export { AboutMe, Name, Hobbies, Movies };
+export default AboutMe;
