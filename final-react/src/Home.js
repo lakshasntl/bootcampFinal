@@ -1,7 +1,9 @@
 import React from "react";
-import TeamMemberCard from "./Home"; // Import the TeamMemberCard component
+import { Link } from "react-router-dom";
+import "./Home.css";
+import TeamMemberCard from "./TeamMemberCard"; // Import the TeamMemberCard component
 
-const Home = () => {
+export const Home = () => {
   const teamMembers = [
     {
       name: "Laksha",
@@ -23,7 +25,6 @@ const Home = () => {
     },
     // { name: "Sara", position: "Tech Lead", imageUrl: "", buttonRoute, buttonRoute: "/sara" },
   ];
-
   return (
     <div className="team-container">
       <h1>H4I Bootcamp Team 4</h1>
@@ -42,5 +43,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
