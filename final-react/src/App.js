@@ -9,7 +9,6 @@ import Neel from "./neel_aboutme";
 function App() {
   return (
     <BrowserRouter>
-      <p>Hi</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/laksha" element={<Laksha />} />
