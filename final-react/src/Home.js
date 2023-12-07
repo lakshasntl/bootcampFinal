@@ -1,5 +1,5 @@
 import React from "react";
-import TeamMemberCard from "./Home"; // Import the TeamMemberCard component
+import TeamMemberCard from "./TeamMemberCard"; // Import the TeamMemberCard component
 
 const Home = () => {
   const teamMembers = [
