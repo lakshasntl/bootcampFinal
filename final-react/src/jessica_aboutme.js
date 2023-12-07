@@ -20,13 +20,13 @@ const Jessica = () => (
       </p>
       <div className="image-container">
         <img
-          src={`images/no-hard-feelings.png`}
+          src={`jessica-images/no-hard-feelings.png`}
           width={200}
           height={300}
           alt="No Hard Feelings Movie Poster"
         />
         <img
-          src={`images/bottoms.jpg`}
+          src={`jessica-images/bottoms.jpg`}
           width={200}
           height={300}
           alt="Bottoms Movie Poster"
@@ -40,7 +40,7 @@ const Jessica = () => (
       </p>
       <div className="image-container">
         <img
-          src={`images/collection.jpg`}
+          src={`jessica-images/collection.jpg`}
           width={300}
           height={300}
           alt="Rilakkuma Collection"
@@ -60,7 +60,7 @@ const Jessica = () => (
       </p>
       <div className="image-container">
         <img
-          src={`images/top_tracks_short_term.png`}
+          src={`jessica-images/top_tracks_short_term.png`}
           width={255}
           height={618}
           alt="Receiptify"
