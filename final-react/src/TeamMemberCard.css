@@ -1,35 +1,42 @@
 /* TeamMemberCard.css */
+/* TeamMemberCard.css */
 .card {
-    border: 1px solid #000;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 200px; /* Adjust width as needed */
-    margin: 10px;
-    background-color: #fff; /* Assuming a white background */
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto; /* Or set a fixed height */
-    background-color: #cccccc; /* Placeholder for images */
-  }
-  
-  .card-info {
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .learn-more-btn {
-    background-color: #0069CA;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .learn-more-btn:hover {
-    background-color: #0055a4;
-  }
-  
+  border: 1px solid #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: calc(25% - 20px); /* Adjust width as needed */
+  max-width: 200px; /* Maximum width for individual cards */
+  margin: 10px; /* Set a margin for even gaps */
+  margin-bottom: 20px; /* Additional bottom margin for spacing */
+  background-color: #fff; /* Assuming a white background */
+  display: inline-block; /* Set cards to display inline */
+  vertical-align: top; /* Align cards to the top */
+}
+
+
+
+.card img {
+  width: 100%;
+  height: auto; /* Or set a fixed height */
+  display: flex;
+  background-color: #cccccc; /* Placeholder for images */
+}
+
+.card-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.learn-more-btn {
+  background-color: #0069CA;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block; /* Display button as a block */
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #0055a4;
+}
